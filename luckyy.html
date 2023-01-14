@@ -11,9 +11,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>lucky</title>
+<title>luckyy</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<style> 
+	body {
+	
+		background : rgba(219,205,110,255);
+		margin: 0px;
+		padding: 0px;
+	
+	}
+	
+	h1 {
+		font-size: 60;
+		color : rgb(102, 70, 0);
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+	
+	
+	}
+
+	
+	
+	</style>
 <script>
 (function (cjs, an) {
 var p; // shortcut to reference prototypes
@@ -1442,15 +1463,12 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLrgyhMCXXAAAMAAABlDMiXXAAAg");
-	this.shape.setTransform(478.8,312.775);
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#DBCD6E").s().p("EhLrAyiMAAAhlDMCXXAAAMAAABlDg");
-	this.shape_1.setTransform(478.8,312.775);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.shape.graphics.f("#DBCD6E").s().p("EhMnAzoMAAAhnPMCZPAAAMAAABnPg");
+	this.shape.setTransform(476.8,318.775);
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 	this._renderFirstFrame();
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(-6.6,-11.6,970.8,648.8);
+p.nominalBounds = rect = new cjs.Rectangle(-13.6,-11.6,980.8,660.8);
 p.frameBounds = [rect];
 (lib.Symbol58 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -6338,7 +6356,7 @@ if (reversed == null) { reversed = false; }
 	// background
 	this.background1 = new lib.Symbol1("synched",0);
 	this.background1.name = "background1";
-	this.background1.setTransform(478,330.4,1,1,0,0,0,481.2,319.8);
+	this.background1.setTransform(486.8,319.4,1,1,0,0,0,481.2,319.8);
 	this.timeline.addTween(cjs.Tween.get(this.background1).wait(1));
 	// scene2
 	this.scene_menu = new lib.Symbol8();
@@ -6347,7 +6365,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.scene_menu).wait(1));
 	this._renderFirstFrame();
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(349.4,314,1641.5,718);
+p.nominalBounds = rect = new cjs.Rectangle(349.4,308,1641.5,724);
 p.frameBounds = [rect];
 // library properties:
 lib.properties = {
@@ -6504,10 +6522,14 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:960px; height:640px">
-		<canvas id="canvas" width="960" height="640" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+	<h1> Are you lucky</h1>
+
+	<div style="display: block; position: relative;">
+	<div id="animation_container" style="padding:0; margin: 0; text-align: center; position: relative; margin-left: 240px; border: 0px;">
+		<canvas id="canvas" width="960" height="640" style="background-color:rgba(255, 255, 255, 1.00); "></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:960px; height:640px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
+</div>
+
 </body>
-</html>
